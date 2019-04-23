@@ -9,8 +9,8 @@ module.exports = {
     node: true,
     es6: true,
   },
-  //extends: "ivweb",//['plugin:vue/recommended', 'eslint:recommended'],
-  "extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
+  extends: "ivweb",//['plugin:vue/recommended', 'eslint:recommended'],
+  //"extends": ["eslint:recommended", "plugin:react/recommended", "ivweb"],
 
   // add your custom rules here
   //it is base on https://github.com/vuejs/eslint-config-vue
